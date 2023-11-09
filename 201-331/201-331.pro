@@ -1,5 +1,10 @@
 QT       += core gui
 
+INCLUDEPATH += D:\qt\Tools\OpenSSL\Win_x64\include
+
+LIBS += D:/qt/Tools/OpenSSL/Win_x64/lib/libcrypto.lib
+LIBS += D:/qt/Tools/OpenSSL/Win_x64/lib/libssl.lib
+
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
