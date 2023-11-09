@@ -94,7 +94,7 @@ int MainWindow::show_game_window() {
         for (int j = 0; j < 3; j++, i++) {
             Hlayout->addWidget(game_btn_list[i]);//Добавляем в гориз лайаут кнопку из листа
         }
-        ui->verticalLayout->addLayout(Hlayout);
+        ui->verticalLayout->addLayout(Hlayout);//ygn
     }
 
     return 0;
